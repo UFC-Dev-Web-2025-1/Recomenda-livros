@@ -2,11 +2,23 @@
   "name": "book-recommendation-app",
   "version": "1.0.0",
   "description": "Aplicativo de recomendação de livros",
-  "main": "index.js",
   "scripts": {
-    "dev": "node index.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@mui/material": "^5.15.15",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.15",
+    "next": "^14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@types/react": "^19.1.8"
+    "@types/react": "^19.1.8",
+    "@types/node": "^20.12.12",
+    "typescript": "^5.5.3"
   }
 }
