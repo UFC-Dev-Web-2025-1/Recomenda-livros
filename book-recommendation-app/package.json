@@ -1,1 +1,12 @@
-// Arquivo placeholder: package.json
+{
+  "name": "book-recommendation-app",
+  "version": "1.0.0",
+  "description": "Aplicativo de recomendação de livros",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8"
+  }
+}

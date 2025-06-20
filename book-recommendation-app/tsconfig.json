@@ -1,1 +1,18 @@
 // Arquivo placeholder: tsconfig.json
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "target": "esnext",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src"],
+    "exclude": ["node_modules"]
+}
+// Para rodar com "npm run dev", adicione um script "dev" no seu package.json, por exemplo:
+// "scripts": {
+//   "dev": "ts-node-dev src/index.ts"
+// }
