@@ -1,1 +1,2 @@
 // Arquivo placeholder: layout.tsx
+
